@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private void giveNewRandom() {
         if (count == 5) {
             count = 0;
-            Toast.makeText(this, "YOu won! play again", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "YOu won! play it  again", Toast.LENGTH_SHORT).show();
         }
         else {
             Random rand = new Random();
